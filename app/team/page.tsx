@@ -48,7 +48,7 @@ const teamMembers = [
       "Prior to joining dParadigm, the CIO held leadership positions in top-tier financial institutions and fintech ventures, where he built and scaled high-frequency trading operations, pioneered AI-driven market-making strategies, and led the development of automated trading infrastructures. His ability to bridge traditional financial expertise with cutting-edge digital asset innovation makes him a vital asset to dParadigm's growth and trading success.",
       "At dParadigm, the CIO continues to drive innovation in trading execution, liquidity provision, and quantitative strategy development, ensuring the firm remains agile, data-driven, and strategically positioned to capture opportunities in the ever-evolving landscape of digital asset markets.",
     ],
-    linkedin: true,
+    linkedin: false,
     image: "/images/silhouette-headshot.png",
   },
   {
