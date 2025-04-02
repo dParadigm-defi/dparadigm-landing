@@ -69,7 +69,7 @@ export default function Mission() {
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                     <Coins className="h-6 w-6 text-blue-500" />
                   </div>
-                  <h3 className="mb-2 text-xl font-bold text-white">Tokenized securities & digital asset portfolios</h3>
+                  <h3 className="mb-2 text-xl font-bold text-white">Tokenized assets & digital asset portfolios</h3>
                 </CardContent>
               </Card>
 

@@ -78,7 +78,7 @@ export default function Clients() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Exposure to regulated tokenized securities
+                  Exposure to regulated tokenized assets
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>

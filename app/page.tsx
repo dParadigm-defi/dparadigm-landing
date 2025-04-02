@@ -31,7 +31,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 text-xl text-muted-foreground">
               dParadigm Capital is a leading global digital asset investment manager and liquidity provider,
-              specializing in blockchain-based assets, DeFi protocols, tokenized securities, and algorithmic trading
+              specializing in blockchain-based assets, DeFi protocols, tokenized assets, and algorithmic trading
               strategies.
             </p>
             {/* Buttons removed */}

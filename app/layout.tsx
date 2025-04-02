@@ -13,7 +13,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "dParadigm Capital | Digital Asset Investment Manager",
   description:
-    "dParadigm Capital is a leading global digital asset investment manager and liquidity provider, specializing in blockchain-based assets, DeFi protocols, tokenized securities, and algorithmic trading strategies.",
+    "dParadigm Capital is a leading global digital asset investment manager and liquidity provider, specializing in blockchain-based assets, DeFi protocols, tokenized assets, and algorithmic trading strategies.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
