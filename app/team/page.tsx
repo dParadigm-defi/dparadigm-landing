@@ -4,6 +4,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ContactCTA } from "@/components/contact-cta"
 import { Linkedin } from "lucide-react"
+import {redirect} from "next/navigation";
 
 const teamMembers = [
   {
@@ -77,6 +78,8 @@ const teamMembers = [
 ]
 
 export default function Team() {
+  // keep the team page but redirect it for now
+  redirect('/')
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
