@@ -37,27 +37,28 @@ export default function Clients() {
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 md:grid-cols-3">
-            {/* HNWIs */}
+
+            {/* Institutional Investors */}
             <div className="flex flex-col">
               <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
-                <Users className="h-8 w-8 text-blue-500" />
+                <Landmark className="h-8 w-8 text-blue-500" />
               </div>
-              <h2 className="mb-4 text-2xl font-bold text-white">High-Net-Worth Individuals (HNWIs)</h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">Institutional Investors</h2>
               <p className="mb-6 text-gray-300">
-                Exclusive access to institutional-grade investment products and high-growth blockchain opportunities.
+                We provide customized institutional solutions for seamless managed digital asset exposure.
               </p>
               <ul className="mt-auto space-y-3 text-gray-300">
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Diversified digital asset funds
+                  Regulated CeFi and DeFi exposure
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Yield-generating DeFi strategies
+                  Compliant & secure custody solutions
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Bespoke portfolio solutions
+                  Bespoke solutions and support
                 </li>
               </ul>
             </div>
@@ -67,9 +68,9 @@ export default function Clients() {
               <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
                 <Building2 className="h-8 w-8 text-blue-500" />
               </div>
-              <h2 className="mb-4 text-2xl font-bold text-white">Family Offices & Asset Managers</h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">Asset Managers & Family Offices</h2>
               <p className="mb-6 text-gray-300">
-                Enhance portfolio diversification with uncorrelated, risk-adjusted digital asset investments.
+                Enhance portfolio diversification with risk-adjusted digital asset investments.
               </p>
               <ul className="mt-auto space-y-3 text-gray-300">
                 <li className="flex items-start">
@@ -78,39 +79,40 @@ export default function Clients() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Exposure to regulated tokenized assets
+                  Exposure to tokenized assets
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Private investments in early-stage blockchain projects
+                  Private investments in early-stage DeFi projects
                 </li>
               </ul>
             </div>
 
-            {/* Institutional Investors */}
+            {/* HNWIs */}
             <div className="flex flex-col">
               <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
-                <Landmark className="h-8 w-8 text-blue-500" />
+                <Users className="h-8 w-8 text-blue-500" />
               </div>
-              <h2 className="mb-4 text-2xl font-bold text-white">Institutional Investors</h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">Web3 Projects</h2>
               <p className="mb-6 text-gray-300">
-                We provide customized institutional solutions for seamless digital asset integration.
+                Exclusive access to institutional-grade investment products and high-growth opportunities.
               </p>
               <ul className="mt-auto space-y-3 text-gray-300">
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  DeFi & crypto hedge fund exposure
+                  Diversified digital asset funds
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Compliant & secure custody solutions
+                  Liquidity solutions
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-blue-400">•</span>
-                  Market-making & liquidity support
+                  Bespoke treasury support and protection
                 </li>
               </ul>
             </div>
+
           </div>
         </div>
       </section>

@@ -29,7 +29,7 @@ export default function CompetitiveAdvantage() {
             <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
               Competitive Advantage
             </h1>
-            <p className="mt-6 text-xl text-muted-foreground">Why Choose dParadigm Capital?</p>
+            <p className="mt-6 text-xl text-muted-foreground">Why Choose dParadigm?</p>
           </div>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function CompetitiveAdvantage() {
             </div>
             <h2 className="mb-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Approach</h2>
             <p className="text-xl leading-8 text-gray-300">
-              📌 We combine expertise, technology, and a client-first approach to build the next era of digital asset
+              We combine expertise, technology, and a client-first approach to build the next era of digital asset
               investment
             </p>
           </div>

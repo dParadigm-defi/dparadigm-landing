@@ -10,13 +10,13 @@ import Image from "next/image"
 const navigation = [
   { name: "Our Firm", href: "/" },
   { name: "Mission", href: "/mission" },
-  { name: "Advantage", href: "/advantage" },
+  // { name: "Advantage", href: "/advantage" },
   { name: "Clients", href: "/clients" },
   // { name: "Team", href: "/team" },
-  { name: "Market Making", href: "/market-making" },
-  { name: "Products", href: "/products" },
-  { name: "Partnerships", href: "/partnerships" },
-  { name: "Blog", href: "/blog" },
+  // { name: "Market Making", href: "/market-making" },
+  { name: "Investment Products", href: "/products" },
+  //{ name: "Partnerships", href: "/partnerships" },
+  // { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ]
 

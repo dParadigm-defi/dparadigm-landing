@@ -27,8 +27,92 @@ export default function Products() {
         <div className="container relative z-10 mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              Investment Products & Services
+              Investment Products
             </h1>
+          </div>
+        </div>
+      </section>
+
+      {/* Products Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 md:grid-cols-3">
+            {/* dParadigm Fund */}
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
+                  <BarChart3 className="h-8 w-8 text-blue-500" />
+                </div>
+                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Fund</h2>
+                <p className="mb-6 text-gray-300">A diversified digital asset investment fund offering:</p>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Delta managed exposure to crypto assets
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Advanced risk management & quantitative strategies
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    DeFi exposure
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* dParadigm Yield Strategies */}
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
+                  <TrendingUp className="h-8 w-8 text-blue-500" />
+                </div>
+                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Liquidity Solutions</h2>
+                <p className="mb-6 text-gray-300">A cutting-edge investment program powered by:</p>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Liquidity pool participation
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Macro AI-powered overview of the market
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Algorithmic and systematic trading
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            {/* Early-Stage Blockchain Ventures */}
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
+                  <Rocket className="h-8 w-8 text-blue-500" />
+                </div>
+                <h2 className="mb-4 text-2xl font-bold text-white">Early-Stage Protocols</h2>
+                <p className="mb-6 text-gray-300">
+                  A protected launchpad to exciting new markets:
+                </p>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Gain exclusive access to promising new blockchain & Web3 protocols
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Remain regulation compliant
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-blue-400">•</span>
+                    Managed exposure to high-growth markets
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -68,79 +152,9 @@ export default function Products() {
                 </li>
               </ul>
               <p className="mt-6 text-lg text-gray-300">
-                📌 Partner with us to enhance exchange liquidity & stability.
+                Partner with us to enhance exchange liquidity & stability.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Products Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 md:grid-cols-3">
-            {/* dParadigm Fund */}
-            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-              <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
-                  <BarChart3 className="h-8 w-8 text-blue-500" />
-                </div>
-                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Fund</h2>
-                <p className="mb-6 text-gray-300">A diversified digital asset investment fund offering:</p>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    Exposure to high-growth crypto assets
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    Advanced risk management & quantitative strategies
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    DeFi, staking, and yield optimization
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            {/* dParadigm Yield Strategies */}
-            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-              <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
-                  <TrendingUp className="h-8 w-8 text-blue-500" />
-                </div>
-                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Yield Strategies</h2>
-                <p className="mb-6 text-gray-300">A cutting-edge yield-generating investment program powered by:</p>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    Liquidity pool participation
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    Staking & master nodes
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-blue-400">•</span>
-                    Algorithmic yield farming
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            {/* Early-Stage Blockchain Ventures */}
-            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-              <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
-                  <Rocket className="h-8 w-8 text-blue-500" />
-                </div>
-                <h2 className="mb-4 text-2xl font-bold text-white">Early-Stage Blockchain Ventures</h2>
-                <p className="mb-6 text-gray-300">
-                  Gain exclusive access to promising pre-launch blockchain startups & Web3 protocols.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -155,10 +169,10 @@ export default function Products() {
               </div>
             </div>
             <h2 className="mb-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Early-Stage Blockchain Ventures
+              Early-Stage Web3 Protocol Support
             </h2>
             <p className="text-xl leading-8 text-gray-300">
-              📌 Gain exclusive access to promising pre-launch blockchain startups & Web3 protocols.
+              Our Web3 and trading expertise positions protocols for success from day one, we ensure protocols thrive.
             </p>
           </div>
         </div>

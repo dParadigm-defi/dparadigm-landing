@@ -25,11 +25,11 @@ export function Footer() {
                   Mission
                 </Link>
               </li>
-              <li>
-                <Link href="/advantage" className="text-gray-400 transition hover:text-blue-400">
-                  Competitive Advantage
-                </Link>
-              </li>
+              {/*<li>*/}
+              {/*  <Link href="/advantage" className="text-gray-400 transition hover:text-blue-400">*/}
+              {/*    Competitive Advantage*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
               <li>
                 <Link href="/clients" className="text-gray-400 transition hover:text-blue-400">
                   Clients
@@ -40,21 +40,25 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-white">Services</h3>
             <ul className="space-y-2 text-sm">
+              {/*
               <li>
                 <Link href="/market-making" className="text-gray-400 transition hover:text-blue-400">
                   Market Making
                 </Link>
               </li>
+              */}
               <li>
                 <Link href="/products" className="text-gray-400 transition hover:text-blue-400">
                   Investment Products
                 </Link>
               </li>
+              {/*
               <li>
                 <Link href="/blog" className="text-gray-400 transition hover:text-blue-400">
                   Blog
                 </Link>
               </li>
+              */}
               <li>
                 <Link href="/contact" className="text-gray-400 transition hover:text-blue-400">
                   Contact

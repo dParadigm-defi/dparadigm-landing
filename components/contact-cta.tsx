@@ -8,7 +8,7 @@ export function ContactCTA() {
         <div className="mx-auto max-w-3xl rounded-2xl border border-blue-600/20 bg-black/70 p-8 text-center backdrop-blur-sm">
           <h2 className="text-2xl font-bold text-white sm:text-3xl">Contact Us</h2>
           <p className="mt-4 text-lg text-gray-300">
-            We welcome inquiries from investors, partners, and industry professionals. Reach out to our team for
+            We welcome enquiries from investors, partners, and industry professionals. Reach out to our team for
             strategic discussions, investment opportunities, or any support you may need.
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-4">

@@ -39,8 +39,8 @@ export default function Mission() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <p className="text-xl leading-8 text-gray-300">
-              We empower high-net-worth individuals (HNWIs), family offices, and institutional investors with tailored
-              exposure to the DeFi ecosystem, digital asset funds, and next-gen yield strategies.
+              We deliver tailored access to next‑generation digital‑asset strategies while
+              upholding compliance standards and rigorous, institutional‑level risk management.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Mission() {
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                     <Building className="h-6 w-6 text-blue-500" />
                   </div>
-                  <h3 className="mb-2 text-xl font-bold text-white">Early-stage blockchain & Web3 startups</h3>
+                  <h3 className="mb-2 text-xl font-bold text-white">DeFi protocols & CeFi markets</h3>
                 </CardContent>
               </Card>
 
@@ -79,7 +79,7 @@ export default function Mission() {
                     <TrendingUp className="h-6 w-6 text-blue-500" />
                   </div>
                   <h3 className="mb-2 text-xl font-bold text-white">
-                    DeFi yield farming, staking, and liquidity pools
+                    Liquidity provision, treasury management, market arbitrage
                   </h3>
                 </CardContent>
               </Card>
@@ -88,13 +88,13 @@ export default function Mission() {
         </div>
       </section>
 
-      {/* Liquidity & Market-Making */}
+      {/* Quant Strats */}
       <section className="bg-black/60 py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Liquidity & Market-Making Expertise
+                Quantitative Expertise
               </h2>
             </div>
 
@@ -104,7 +104,7 @@ export default function Mission() {
                   <BarChart3 className="h-8 w-8 text-blue-500" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
-                  Enhancing liquidity for exchanges & crypto projects
+                  Enhancing market efficiency
                 </h3>
               </div>
 
@@ -112,7 +112,7 @@ export default function Mission() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
                   <Landmark className="h-8 w-8 text-blue-500" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white">Preventing price manipulation & wash trading</h3>
+                <h3 className="mb-2 text-xl font-bold text-white">Preventing price manipulation</h3>
               </div>
 
               <div className="flex flex-col items-center text-center">
@@ -126,7 +126,7 @@ export default function Mission() {
         </div>
       </section>
 
-      {/* Driving Institutional Crypto Adoption */}
+      {/* Driving Institutional Adoption */}
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
@@ -136,11 +136,11 @@ export default function Mission() {
               </div>
             </div>
             <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl">
-              Driving Institutional Crypto Adoption
+              Driving Institutional Adoption
             </h2>
             <p className="text-xl leading-8 text-gray-300">
-              We believe digital assets are the future and work towards sustainable, compliant, and secure investment
-              pathways for institutions worldwide.
+              Combining the best practices of traditional finance with cutting‑edge blockchain solutions,
+              we deliver secure, sustainable and regulation‑aligned access to digital‑asset investments for institutions worldwide.
             </p>
           </div>
         </div>

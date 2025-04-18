@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ContactCTA } from "@/components/contact-cta"
-import { Shield, Zap, Scale, Globe } from "lucide-react"
+import {Shield, Zap, Scale, Globe, UserCheck, Brain, Lock} from "lucide-react"
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="container relative z-10 mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              Pioneering the Future of Digital Asset Investment
+              Pioneering Compliant Digital Asset Investment
             </h1>
             <p className="mt-6 text-xl text-muted-foreground">
               dParadigm Capital is a leading global digital asset investment manager and liquidity provider,
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="mt-6 text-lg leading-8 text-gray-300">
               <p className="mb-6">
                 Our mission is to bridge the gap between traditional finance (TradFi) and digital finance, offering
-                institutional-grade investment solutions powered by cutting-edge technology and risk management
+                institutional-grade and compliant investment solutions powered by cutting-edge technology and risk management
                 frameworks.
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function Home() {
                   <Shield className="h-6 w-6 text-blue-500" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Regulated & Institutional-Grade</h3>
-                <p className="text-gray-300">Operating under strict AML, KYC, and compliance policies</p>
+                <p className="text-gray-300">Operating under strict AML, KYC and compliance policies</p>
               </CardContent>
             </Card>
 
@@ -75,7 +75,7 @@ export default function Home() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                   <Zap className="h-6 w-6 text-blue-500" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white">Market Leaders in DeFi & Crypto</h3>
+                <h3 className="mb-2 text-xl font-bold text-white">Market Leaders in Trading Digital Assets</h3>
                 <p className="text-gray-300">Backed by seasoned professionals from top financial institutions</p>
               </CardContent>
             </Card>
@@ -85,9 +85,9 @@ export default function Home() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                   <Scale className="h-6 w-6 text-blue-500" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white">Data-Driven, AI-Powered Investments</h3>
+                <h3 className="mb-2 text-xl font-bold text-white">Data-Driven, Quantitative Solutions</h3>
                 <p className="text-gray-300">
-                  Leveraging quantitative models & proprietary technology for superior returns
+                  Leveraging mathematical models & proprietary technology for superior performance
                 </p>
               </CardContent>
             </Card>
@@ -99,8 +99,57 @@ export default function Home() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Global Reach, Local Expertise</h3>
                 <p className="text-gray-300">
-                  Supporting HNWIs, family offices, institutions, and blockchain projects worldwide
+                  Supporting UHNWIs, family offices, institutions and blockchain projects worldwide
                 </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="mb-12 text-center text-3xl font-bold tracking-tight sm:text-4xl">Our Edge</h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-6">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                  <UserCheck className="h-6 w-6 text-blue-500" />
+                </div>
+                <h3 className="mb-2 text-xl font-bold text-white">Trust & Proven Expertise</h3>
+                <p className="text-gray-300">
+                  Decades of experience from top-tier financial institutions, hedge funds and blockchain pioneers
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-6">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                  <Shield className="h-6 w-6 text-blue-500" />
+                </div>
+                <h3 className="mb-2 text-xl font-bold text-white">Client-Centric & Tailored Solutions</h3>
+                <p className="text-gray-300">Dedicated to maximizing long-term value for investors</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-6">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                  <Brain className="h-6 w-6 text-blue-500" />
+                </div>
+                <h3 className="mb-2 text-xl font-bold text-white">Advanced Research & AI-Driven Strategies</h3>
+                <p className="text-gray-300">Proprietary quantitative models & real-time risk analytics</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+              <CardContent className="p-6">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                  <Lock className="h-6 w-6 text-blue-500" />
+                </div>
+                <h3 className="mb-2 text-xl font-bold text-white">Institutional-Grade Security & Compliance</h3>
+                <p className="text-gray-300">Stringent AML, CTF and regulatory adherence for investors' protection</p>
               </CardContent>
             </Card>
           </div>

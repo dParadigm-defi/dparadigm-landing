@@ -33,14 +33,24 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="mt-6 text-xl text-muted-foreground">
-              Get in touch with our team to explore investment opportunities
+              Get in touch with our team to explore unique opportunities
             </p>
           </div>
-        </div>
-      </section>
+            <div className="container relative z-10 mx-auto mt-12 px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-3xl rounded-2xl border border-blue-600/20 bg-black/70 p-8 text-center backdrop-blur-sm">
+                    <p className="mt-4 text-lg text-gray-300">
+                        We welcome enquiries from investors, partners, and industry professionals.&nbsp;
+                        Reach out to our team for strategic discussions, investment opportunities, or any support you may need.
+                    </p>
 
-      {/* Contact Form Section */}
-      <ContactCTA />
+                    <div className="mt-6 flex flex-col items-center justify-center gap-4">
+                        <p className="text-sm text-gray-400">📩 Email: dg@dparadigmcapital.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
 
       <Footer />
     </div>
