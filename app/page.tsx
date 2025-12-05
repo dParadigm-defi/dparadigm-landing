@@ -26,9 +26,9 @@ export default function Home() {
 
         <div className="container relative z-10 mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
-            <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              Pioneering Compliant Digital Asset Management
-            </h1>
+              <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl pb-1">
+                  Pioneering Compliant Digital Asset Management
+              </h1>
             <p className="mt-6 text-xl text-muted-foreground">
                 dParadigm Capital is a global multi-family office platform dedicated to helping clients navigate the digital economy with institutional discipline and regulatory integrity. We provide bespoke digital asset investment and family office services designed for long-term capital preservation, growth, and intergenerational wealth management.
             </p>
