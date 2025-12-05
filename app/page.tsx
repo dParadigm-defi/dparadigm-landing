@@ -160,7 +160,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-0
+
       {/* Contact CTA */}
       <ContactCTA />
 
