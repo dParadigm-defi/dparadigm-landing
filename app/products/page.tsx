@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ContactCTA } from "@/components/contact-cta"
-import { BarChart3, TrendingUp, Rocket, CheckCircle, Target } from "lucide-react"
+import { BarChart3, TrendingUp, Rocket, Target } from "lucide-react"
 
 export default function Products() {
   return (
