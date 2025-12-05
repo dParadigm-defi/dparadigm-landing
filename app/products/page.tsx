@@ -27,7 +27,7 @@ export default function Products() {
         <div className="container relative z-10 mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              Investment Products
+                Portfolio Solutions
             </h1>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Products() {
       {/* Products Section */}
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 md:grid-cols-3">
+          <div className="grid gap-12 md:grid-cols-1">
             {/* dParadigm Fund */}
             <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
               <CardContent className="p-8">
@@ -44,19 +44,19 @@ export default function Products() {
                   <BarChart3 className="h-8 w-8 text-blue-500" />
                 </div>
                 <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Fund</h2>
-                <p className="mb-6 text-gray-300">A diversified digital asset investment fund offering:</p>
+                <p className="mb-6 text-gray-300">A diversified digital asset investment fund designed for family offices and institutional investors seeking secure, risk-managed exposure to the digital economy.</p>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Delta managed exposure to crypto assets
+                      Delta-Managed Crypto Exposure - Balanced participation in core digital assets through controlled risk frameworks.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Advanced risk management & quantitative strategies
+                      Quantitative & Systematic Strategies - Data-driven investment models built for consistency and long-term performance.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    DeFi exposure
+                      DeFi & Tokenized Asset Access - Curated exposure to regulated decentralized finance protocols and tokenized investment vehicles.
                   </li>
                 </ul>
               </CardContent>
@@ -68,20 +68,20 @@ export default function Products() {
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
                   <TrendingUp className="h-8 w-8 text-blue-500" />
                 </div>
-                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Liquidity Solutions</h2>
-                <p className="mb-6 text-gray-300">A cutting-edge investment program powered by:</p>
+                <h2 className="mb-4 text-2xl font-bold text-white">dParadigm Treasury Solutions</h2>
+                <p className="mb-6 text-gray-300">A tailored family office and institutional treasury management program focused on capital preservation, yield optimization, and digital asset integration.</p>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Liquidity pool participation
+                      Digital Treasury Structuring - Customized portfolio design for stablecoin, tokenized, and fiat balance optimization.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Macro AI-powered overview of the market
+                      Risk & Compliance Oversight - Managed under institutional AML, KYC, and regulatory frameworks.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Algorithmic and systematic trading
+                      Strategic Allocation & Reporting - Transparent dashboards and analytics for real-time treasury visibility.
                   </li>
                 </ul>
               </CardContent>
@@ -93,68 +93,26 @@ export default function Products() {
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-blue-600/20">
                   <Rocket className="h-8 w-8 text-blue-500" />
                 </div>
-                <h2 className="mb-4 text-2xl font-bold text-white">Early-Stage Protocols</h2>
+                <h2 className="mb-4 text-2xl font-bold text-white">Early-Stage Protocols & Web3 Ventures</h2>
                 <p className="mb-6 text-gray-300">
-                  A protected launchpad to exciting new markets:
+                    A selective launchpad providing compliant, risk-adjusted access to high-potential blockchain and Web3 opportunities.
                 </p>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Gain exclusive access to promising new blockchain & Web3 protocols
+                      Curated Early-Stage Access - Participation in vetted, regulation-aligned digital projects.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Remain regulation compliant
+                      Governance & Oversight - Institutional due diligence and structured exposure management.
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2 text-blue-400">•</span>
-                    Managed exposure to high-growth markets
+                      Growth Alignment - Strategic partnerships and advisory support to enhance long-term protocol success.
                   </li>
                 </ul>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Liquidity Services Section */}
-      <section className="bg-black/80 py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl">
-            <h2 className="mb-8 text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Liquidity Services
-            </h2>
-            <div className="rounded-xl border border-blue-600/20 bg-black/50 p-8 backdrop-blur-sm">
-              <p className="mb-6 text-lg text-gray-300">
-                We provide liquidity services for digital asset exchanges, ensuring:
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <CheckCircle className="mr-3 h-6 w-6 flex-shrink-0 text-blue-500" />
-                  <span className="text-gray-300">
-                    <span className="font-semibold text-white">Increased Trading Volume</span> – Attracts high-frequency
-                    traders & institutions
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="mr-3 h-6 w-6 flex-shrink-0 text-blue-500" />
-                  <span className="text-gray-300">
-                    <span className="font-semibold text-white">Lower Market Manipulation</span> – Stronger order book
-                    integrity
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="mr-3 h-6 w-6 flex-shrink-0 text-blue-500" />
-                  <span className="text-gray-300">
-                    <span className="font-semibold text-white">Higher Exchange Revenue</span> – More transactions = more
-                    exchange fees
-                  </span>
-                </li>
-              </ul>
-              <p className="mt-6 text-lg text-gray-300">
-                Partner with us to enhance exchange liquidity & stability.
-              </p>
-            </div>
           </div>
         </div>
       </section>

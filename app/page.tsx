@@ -27,46 +27,45 @@ export default function Home() {
         <div className="container relative z-10 mx-auto px-4 py-24 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl">
-              Pioneering Compliant Digital Asset Investment
+              Pioneering Compliant Digital Asset Management
             </h1>
             <p className="mt-6 text-xl text-muted-foreground">
-              dParadigm Capital is a leading global digital asset investment manager and liquidity provider,
-              specializing in blockchain-based assets, DeFi protocols, tokenized assets, and algorithmic trading
-              strategies.
+                dParadigm Capital is a global multi-family office platform dedicated to helping clients navigate the digital economy with institutional discipline and regulatory integrity. We provide bespoke digital asset investment and family office services designed for long-term capital preservation, growth, and intergenerational wealth management.
             </p>
             {/* Buttons removed */}
           </div>
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="bg-black/80 py-16">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Firm</h2>
-            <div className="mt-6 text-lg leading-8 text-gray-300">
-              <p className="mb-6">
-                Our mission is to bridge the gap between traditional finance (TradFi) and digital finance, offering
-                institutional-grade and compliant investment solutions powered by cutting-edge technology and risk management
-                frameworks.
-              </p>
+        {/* Mission Section */}
+        <section className="bg-black/80 py-16">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-4xl text-center">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Firm</h2>
+                    <div className="mt-6 text-lg leading-8 text-gray-300">
+                        <p className="mb-6">
+                            Our mission is to bridge the gap between traditional finance (TradFi) and digital finance, offering institutional-grade access to blockchain-based assets, tokenized investments, and emerging decentralized finance (DeFi) opportunities.
+                        </p>
+                        <p className="mb-6">
+                            We serve as a trusted partner to family offices, UHNWIs, and institutional investors - combining deep regulatory expertise, secure custody solutions, and tailored investment frameworks built on transparency, governance, and compliance.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
       {/* Key Highlights */}
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="mb-12 text-center text-3xl font-bold tracking-tight sm:text-4xl">Key Highlights</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
             <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
               <CardContent className="p-6">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                   <Shield className="h-6 w-6 text-blue-500" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Regulated & Institutional-Grade</h3>
-                <p className="text-gray-300">Operating under strict AML, KYC and compliance policies</p>
+                <p className="text-gray-300">Operating under robust AML, KYC, and compliance frameworks, dParadigm Capital upholds the governance and transparency expected of global financial institutions.</p>
               </CardContent>
             </Card>
 
@@ -75,8 +74,8 @@ export default function Home() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                   <Zap className="h-6 w-6 text-blue-500" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white">Market Leaders in Trading Digital Assets</h3>
-                <p className="text-gray-300">Backed by seasoned professionals from top financial institutions</p>
+                <h3 className="mb-2 text-xl font-bold text-white">Multi-Asset Investment Expertise</h3>
+                <p className="text-gray-300">Beyond digital assets, we manage diversified portfolios across private credit, venture capital, structured products, and tokenized real-world assets — tailored for family offices, UHNWIs, and institutional investors.</p>
               </CardContent>
             </Card>
 
@@ -85,12 +84,20 @@ export default function Home() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
                   <Scale className="h-6 w-6 text-blue-500" />
                 </div>
-                <h3 className="mb-2 text-xl font-bold text-white">Data-Driven, Quantitative Solutions</h3>
-                <p className="text-gray-300">
-                  Leveraging mathematical models & proprietary technology for superior performance
-                </p>
+                <h3 className="mb-2 text-xl font-bold text-white">Data-Driven, Quantitative Performance</h3>
+                <p className="text-gray-300">Our strategies integrate proprietary quantitative models, blockchain analytics, and algorithmic execution to deliver consistent, risk-adjusted returns.</p>
               </CardContent>
             </Card>
+
+              <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+                  <CardContent className="p-6">
+                      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                          <Globe className="h-6 w-6 text-blue-500" />
+                      </div>
+                      <h3 className="mb-2 text-xl font-bold text-white">Tailored Treasury Management & Financing Solutions</h3>
+                      <p className="text-gray-300">We deliver bespoke treasury management and financing capabilities, connecting traditional capital with digital markets through regulated banking, custody, and tokenization infrastructure.</p>
+                  </CardContent>
+              </Card>
 
             <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
               <CardContent className="p-6">
@@ -98,9 +105,7 @@ export default function Home() {
                   <Globe className="h-6 w-6 text-blue-500" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">Global Reach, Local Expertise</h3>
-                <p className="text-gray-300">
-                  Supporting UHNWIs, family offices, institutions and blockchain projects worldwide
-                </p>
+                <p className="text-gray-300">With presence across major financial centers, dParadigm Capital bridges traditional finance and digital innovation, offering localized expertise and global market access.</p>
               </CardContent>
             </Card>
           </div>

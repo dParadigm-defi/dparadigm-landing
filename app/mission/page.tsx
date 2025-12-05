@@ -54,35 +54,44 @@ export default function Mission() {
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Investment Focus</h2>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-3">
-              <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
-                    <Building className="h-6 w-6 text-blue-500" />
-                  </div>
-                  <h3 className="mb-2 text-xl font-bold text-white">DeFi protocols & CeFi markets</h3>
-                </CardContent>
-              </Card>
+              <div className="grid gap-8 md:grid-cols-3">
+                  <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+                      <CardContent className="p-6">
+                          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                              <Building className="h-6 w-6 text-blue-500" />
+                          </div>
+                          <h3 className="mb-2 text-xl font-bold text-white">DeFi protocols & CeFi markets</h3>
+                          <p className="text-gray-400">
+                              Exposure to decentralized and centralized digital finance ecosystems through compliant, yield-enhancing and data-driven strategies.
+                          </p>
+                      </CardContent>
+                  </Card>
 
-              <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
-                    <Coins className="h-6 w-6 text-blue-500" />
-                  </div>
-                  <h3 className="mb-2 text-xl font-bold text-white">Tokenized assets & digital asset portfolios</h3>
-                </CardContent>
-              </Card>
+                  <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+                      <CardContent className="p-6">
+                          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                              <Coins className="h-6 w-6 text-blue-500" />
+                          </div>
+                          <h3 className="mb-2 text-xl font-bold text-white">Tokenized assets & digital asset portfolios</h3>
+                          <p className="text-gray-400">
+                              Structured investments in tokenized instruments and diversified digital asset portfolios designed for institutional-grade performance.
+                          </p>
+                      </CardContent>
+                  </Card>
 
-              <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
-                    <TrendingUp className="h-6 w-6 text-blue-500" />
-                  </div>
-                  <h3 className="mb-2 text-xl font-bold text-white">
-                    Liquidity provision, treasury management, market arbitrage
-                  </h3>
-                </CardContent>
-              </Card>
+                  <Card className="border-blue-600/20 bg-black/50 backdrop-blur-sm">
+                      <CardContent className="p-6">
+                          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-600/20">
+                              <TrendingUp className="h-6 w-6 text-blue-500" />
+                          </div>
+                          <h3 className="mb-2 text-xl font-bold text-white">
+                              Treasury Management
+                          </h3>
+                          <p className="text-gray-400">
+                              Active strategies focused on capital efficiency, cash flow optimization, and value creation.
+                          </p>
+                      </CardContent>
+                  </Card>
             </div>
           </div>
         </div>
